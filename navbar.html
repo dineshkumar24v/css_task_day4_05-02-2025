@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>navbar</title>
+</head>
+
+<style>
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .a1, input{
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-decoration: none;
+  }
+  .a1{
+    color: white;
+  }
+  select{
+    text-decoration: none;
+    padding: 18px;
+    background-color: transparent;
+    color: white;
+    border: none;
+  }
+  .a2{
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .navbar1{
+    background-color: rgb(33, 42, 52);
+    padding-bottom: 10px;
+    
+  }
+  .navbar2{
+    background-color: rgb(65, 64, 64);
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .a2:hover{
+    background-color: black;
+  }
+  .a1:hover, select:hover{
+    background-color: rgb(55, 105, 55);
+  }
+  .logo{
+    height: 40px;
+    width: 40px;
+    /* border-radius: 50%; */
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .logo:hover{
+    background-color: white;
+  }
+  input{
+    border-radius: 20px;
+  }
+  input:focus{
+    border-color: green;
+  }
+
+  /* hero */
+  .herosection{
+    background-color: rgb(47, 47, 61);
+    height: 52vh;
+    color: white;
+    padding: 100px;
+    text-align: center;
+  }
+  .herosection, h1, h3, h4{
+    padding: 20px;
+  }
+  .hero{
+    position: absolute;
+    height: 250px;
+  }
+  .herosearch{
+    width: 400px;
+    height: 40px;
+    border: none;
+    
+  }
+  .herosection>h1{
+    font-weight: 900;
+    font-size: 60px;
+  }
+  .herosection>h3{
+    color: rgb(192, 192, 81);
+  }
+  .herosearch+.searchicon{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 10px;
+  }
+</style>
+
+<body>
+  <!-- navbar1--------------->
+<div class="navbar1">
+  <select name="" id="">
+    <option value="">Tutorials</option>
+    <option value="">Html</option>
+    <option value="">Css</option>
+    <option value="">Bootstrap</option>
+  </select>
+
+  <select name="" id="">
+    <option value="">Exercises</option>
+  </select>
+
+  <select name="" id="">
+    <option value="">Certificates</option>
+  </select>
+
+  <select name="" id="">
+    <option value="">Services</option>
+  </select>
+
+  <input type="search" placeholder="Search...">
+
+  <a href="#" class="a1">For Teachers</a>
+  <a href="#" class="a1">Get Certified</a>
+  <a href="#" class="a1">Sign Up</a>
+  <a href="#" class="a1">Log in</a>
+</div>
+
+<!-- navbar2 ------------>
+
+  <div class="navbar2">
+    <a href="#" class="a2">HTML</a>
+    <a href="#" class="a2">CSS</a>
+    <a href="#" class="a2">JAVASCRIPT</a>
+    <a href="#" class="a2">SQL</a>
+    <a href="#" class="a2">PYTHON</a>
+    <a href="#" class="a2">JAVA</a>
+    <a href="#" class="a2">PHP</a>
+    <a href="#" class="a2">C</a>
+    <a href="#" class="a2">C++</a>
+    <a href="#" class="a2">C#</a>
+    <a href="#" class="a2">BOOTSTRAP</a>
+    <a href="#" class="a2">REACT</a>
+    <a href="#" class="a2">MYSQL</a>
+    <a href="#" class="a2">JQUERY</a>
+  </div>
+
+  <!-- herosection----------- -->
+  <div class="herosection">
+    <h1>Begin to Learn</h1>
+    <h3>In a Smarter way ever ...</h3>
+
+    <input type="search" placeholder="Search our tutorials, e.g. JavaScript" class="herosearch">
+    
+    <h4>Still Skeptical of where To Begin?</h4>
+    
+  </div>
+
+  
+</body>
+</html>
